@@ -1,0 +1,84 @@
+/* dashboard.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Gunakan font yang bagus */
+    background-color: #f0f0f0; /* Warna latar belakang yang nyaman */
+}
+
+/* Style header */
+header {
+    background-color: #3498db; /* Warna header */
+    color: #fff; /* Warna teks header */
+    padding: 20px;
+    text-align: center; /* Header di tengah */
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Warna teks link */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style main content */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333; /* Warna teks judul */
+}
+
+#user-info {
+    margin-bottom: 20px;
+}
+
+#user-info p {
+    margin: 5px 0;
+}
+
+#contact-list,
+#address-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-list li,
+#address-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Style footer */
+footer {
+    background-color: #3498db; /* Warna footer */
+    color: #fff; /* Warna teks footer */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
